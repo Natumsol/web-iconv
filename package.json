@@ -1,0 +1,38 @@
+{
+  "name": "web-iconv",
+  "version": "0.0.3",
+  "description": "Black magic to decode / encode GBK，GB2312 & UTF-8 with <form> and <iframe> ",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib ",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Natumsol/web-iconv.git"
+  },
+  "keywords": [
+    "GBK",
+    "GB2312",
+    "UTF-8",
+    "Web",
+    "iframe",
+    "form"
+  ],
+  "author": "natumsol <natumsol@qq.com> (http://natumsol.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Natumsol/web-iconv/issues"
+  },
+  "homepage": "https://github.com/Natumsol/web-iconv#readme",
+  "dependencies": {
+    "es6-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.11.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1"
+  }
+}
